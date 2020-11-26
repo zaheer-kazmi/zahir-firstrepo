@@ -1,8 +1,9 @@
 ---
 - name: adding user salman
-  hosts: all
+  hosts: 10.10.12.214
   tasks:
     - name: adding salman
       user:
-        name: salman
+        name: umer
         state: present
+        
