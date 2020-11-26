@@ -1,0 +1,8 @@
+---
+- name: adding user salman
+  hosts: all
+  tasks:
+    - name: adding salman
+      user:
+        name: salman
+        state: present
